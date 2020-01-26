@@ -1,0 +1,25 @@
+{
+  "name": "hellotruffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test test/work.js --network development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.29",
+    "dotenv": "^8.2.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.1.1"
+  },
+  "resolutions": {
+    "eth-lib/keccakjs/sha3": "^1.2.3",
+    "web3/web3-eth/web3-eth-accounts/scrypt.js": "^0.3.0"
+  }
+}
